@@ -541,7 +541,13 @@ footer a {
 	    display: block;
 	    width: 100px;
 	}
-
+	.pop-up p {
+	    padding: 15px;
+	}
+	.line {
+	    margin: 30px 0;
+	    border-bottom: 1px solid #000;
+	}
 	.login {
 	    background-color: #fe5f5b;
 	    color: white;
