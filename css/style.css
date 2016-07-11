@@ -290,6 +290,12 @@ nav h1 {
 
 
 /*FOOTER*/
+footer {
+	text-align: center;
+	margin: auto;
+	width: 100%;
+}
+
 footer a {
 	color: black;
 }
@@ -316,7 +322,7 @@ footer a {
 
 .follow,.twitter,.facebook,.email {
 	display: inline-table;
-	margin-left: -5px;
+	margin-left: -11px;
 	text-align: center;
 	font-size: 20px;
 	letter-spacing: 3;
