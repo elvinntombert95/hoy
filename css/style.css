@@ -115,8 +115,8 @@ nav h1 {
 .page-one {
 	letter-spacing: 5px;
 	text-align: center;
-    padding: 20vh;
-    background: url(../img/background.jpg) no-repeat;
+    padding: 20vh 10px;
+    background: url(../img/background2.jpg) no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -135,13 +135,14 @@ nav h1 {
 }
 
 .page-one button {
-	width: 220px;
-	margin: 0 auto;
-	display: block;
-	border: none;
-	background: #ffcb01;
-	font-size: 20px;
-	padding: 30px 35px;
+    width: 220px;
+    margin: 0 auto;
+    display: block;
+    border: none;
+    background: #ffcb01;
+    font-size: 16px;
+    padding: 30px;
+    text-align: center;
 }
 
 .page-one button a {
@@ -291,9 +292,7 @@ nav h1 {
 
 /*FOOTER*/
 footer {
-	text-align: center;
-	margin: auto;
-	width: 100%;
+	display: flex;
 }
 
 footer a {
@@ -301,28 +300,24 @@ footer a {
 }
 
 .follow {
-	width: 25.3%;
 	background: #ffcc01;
 }
 
 .twitter {
-	width: 25.1%;
 	background: #ff7630;
 }
 
 .facebook {
-	width: 25.1%;
 	background: #4cd5e7;
 }
 
 .email {
-	width: 25.1%;
 	background: #fe5f5b;
 }
 
 .follow,.twitter,.facebook,.email {
-	display: inline-table;
-	margin-left: -11px;
+	width: 100%;
+	margin-left: -5px;
 	text-align: center;
 	font-size: 20px;
 	letter-spacing: 3;
@@ -446,8 +441,6 @@ footer a {
 	.page-one {
 	    letter-spacing: 5px;
 	    text-align: center;
-	    padding: 20vh 0;
-		background: url(../img/background2.jpg);
 	}
 
 	.logo-2 {
@@ -455,7 +448,7 @@ footer a {
 	    width: 250px;
 	}
 	.follow, .twitter, .facebook, .email {
-	    width: 101.5%;
+	    width: 100%;
 	}
 
 	.page-three {
@@ -499,6 +492,10 @@ footer a {
 	    left: 31%;
 	    width: 37.9%;
 	}
+	footer {
+		display: block;
+	}
+
 }
 
 @media screen and (max-width: 414px) {
@@ -516,9 +513,9 @@ footer a {
 
 	/*POP UP*/
 	.pop-up {
-	    top: 10vh;
+        top: 10vh;
 	    left: 7%;
-	    padding: 35px 20px;
+	    padding: 70px 20px;
 	    z-index: 99999;
 	    font-size: 1.2em;
 	    background: #fff;
@@ -542,18 +539,6 @@ footer a {
 	    border: none;
 	}
 
-	.pop-up h2 img {
-	    margin: -5px auto;
-	    display: block;
-	    width: 100px;
-	}
-	.pop-up p {
-	    padding: 15px;
-	}
-	.line {
-	    margin: 30px 0;
-	    border-bottom: 1px solid #000;
-	}
 	.login {
 	    background-color: #fe5f5b;
 	    color: white;
@@ -561,7 +546,7 @@ footer a {
 	    font-weight: bold;
 	    border-radius: 30px;
 	    padding: 20px;
-   		margin: 25px auto 0;
+	    margin: 25px auto;
 	    border: none;
 	    width: 80%;
 	}
@@ -570,7 +555,6 @@ footer a {
 	.page-one {
 	    letter-spacing: 5px;
 	    text-align: center;
-	    padding: 20vh 0;
 	}
 
 	.page-one h1 {
@@ -652,7 +636,7 @@ footer a {
 	    display: block;
 	    position: absolute;
 	    top: 4%;
-	    left: 23%;
+	    left: 24%;
 	    font-size: 20px;
 	    text-transform: uppercase;
 	    color: white;
